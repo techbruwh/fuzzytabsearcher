@@ -1,0 +1,32 @@
+body {
+  width: 340px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background: #f9f9f9;
+}
+
+#search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#results {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.tab {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background: #e0e0e0;
+}
