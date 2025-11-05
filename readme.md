@@ -2,6 +2,11 @@
 
 Search through all open tabs quickly with a keyboard shortcut. Find any open tab instantly without manually switching through windows.
 
+![Tab Searcher Screenshot](./image.png)
+
+*Screenshot: fuzzytabsearcher popup in action*
+
+
 ## Features
 
 -  **Quick Search**: Filter tabs by title or URL as you type
