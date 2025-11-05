@@ -1,7 +1,7 @@
-# TabSearcher
+# FuzzyTabSearcher
 Search through all open tabs quickly with a keyboard shortcut.
 
-# Privacy Policy for TabSearcher
+# Privacy Policy
 
 This extension:
 - Only accesses tab information when the extension is actively used
