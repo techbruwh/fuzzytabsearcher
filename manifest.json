@@ -18,8 +18,8 @@
   "commands": {
     "open_tab_search": {
       "suggested_key": {
-        "default": "Ctrl+Shift+K",
-        "mac": "Command+Shift+K"
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
       },
       "description": "Open the Tab Search popup"
     }
