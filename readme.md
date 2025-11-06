@@ -43,8 +43,8 @@ Search through all open tabs quickly with a keyboard shortcut. Find any open tab
 ## Usage
 
 1. Click the extension icon in your Chrome toolbar, or use the keyboard shortcut:
-   - **Mac**: `Command + Shift + K`
-   - **Windows/Linux**: `Ctrl + Shift + K`
+   - **Mac**: `Command + Shift + L`
+   - **Windows/Linux**: `Ctrl + Shift + L`
 
 2. Start typing to search through your open tabs
 
@@ -61,7 +61,7 @@ When you open the Tab Searcher popup, it displays all your currently open tabs. 
 
 | Action | Mac | Windows/Linux |
 |--------|-----|---------------|
-| Open Tab Searcher | `Command + Shift + K` | `Ctrl + Shift + K` |
+| Open Tab Searcher | `Command + Shift + L` | `Ctrl + Shift + L` |
 | Navigate Down | `Arrow Down` | `Arrow Down` |
 | Navigate Up | `Arrow Up` | `Arrow Up` |
 | Switch to Tab | `Enter` | `Enter` |

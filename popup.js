@@ -15,9 +15,25 @@ function displayTabs(tabs) {
   tabs.forEach((tab, index) => {
     const li = document.createElement("li");
     li.className = "tab";
-    li.textContent = tab.title || tab.url;
-    li.title = tab.url;
+    
+    // Create favicon element
+    const favicon = document.createElement("img");
+    favicon.className = "tab-favicon";
+    favicon.src = tab.favIconUrl || "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23999' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z'/></svg>";
+    favicon.onerror = () => {
+      favicon.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%23999' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z'/></svg>";
+    };
+    
+    // Create text content container
+    const textContainer = document.createElement("span");
+    textContainer.className = "tab-text";
+    textContainer.textContent = tab.title || tab.url;
+    textContainer.title = tab.url;
+    
     li.dataset.index = index;
+    li.appendChild(favicon);
+    li.appendChild(textContainer);
+    
     li.onclick = () => {
       switchToTab(tab);
     };
